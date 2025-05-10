@@ -1,0 +1,22 @@
+img {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+}
+.clock {
+  position: relative;
+  right: 300px;
+  margin-top: 30px;
+}
+.rotate {
+  right: -300px;
+  position: relative;
+}
+.hora-Antigua {
+  position: relative !important;
+  right: -300px;
+}
+.zodiacal {
+  position: relative !important;
+  right: 300px;
+}
