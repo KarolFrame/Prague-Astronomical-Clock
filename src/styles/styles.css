@@ -1,0 +1,56 @@
+:root {
+  --clockSize: 1000px;
+}
+
+.tablero_main {
+  position: relative;
+  width: 1500px;
+  height: 1200px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.esfera-fija,
+.aguja-mano {
+  position: relative;
+}
+
+.aguja-mano {
+  z-index: 100;
+  transform: rotate(0deg);
+  top: -8px;
+}
+
+.esfera-fija-img {
+  position: absolute;
+}
+
+img {
+  width: var(--clockSize);
+  height: var(--clockSize);
+}
+.zodiaco {
+  position: absolute;
+  right: -260px;
+}
+.clock {
+  position: relative;
+  margin-top: 50px;
+}
+.rotate {
+  right: 500px;
+  position: relative;
+  top: -1000px;
+}
+.hora-Antigua {
+  position: absolute !important;
+}
+.zodiacal {
+  position: absolute !important;
+}
+.aguja-sol {
+  position: relative;
+  z-index: 200;
+  right: 108px;
+  top: -45px;
+}

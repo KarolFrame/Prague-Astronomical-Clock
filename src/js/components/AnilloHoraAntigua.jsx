@@ -1,6 +1,6 @@
 import React from "react";
 import anillo from "../../img/Anillo_hora_antigua.png";
-import "../../styles/AnilloFijo.css";
+import "../../styles/styles.css";
 
 const AnilloHoraAntigua = () => {
   return (
