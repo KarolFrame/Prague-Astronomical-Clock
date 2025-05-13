@@ -1,17 +1,16 @@
 import React from "react";
 import zodiacal from "../../img/Anillo_zodiacal.png";
 import "../../styles/styles.css";
-import AgujaSol from "./AgujaSol";
 
-const AnilloZodiacal = ({ zodiacRotate, sunRotate }) => {
+const AnilloZodiacal = ({ zodiacRotate }) => {
   return (
     <>
-      <div
-        className="zodiaco"
-        style={{ transform: `rotate(${zodiacRotate}deg)` }}
-      >
-        <img className="zodiacal" src={zodiacal} />
-        <AgujaSol sunRotate={sunRotate} />
+      <div className="zodiaco">
+        <img
+          className="zodiacal"
+          src={zodiacal}
+          style={{ transform: `rotate(${zodiacRotate}deg)` }}
+        />
       </div>
     </>
   );

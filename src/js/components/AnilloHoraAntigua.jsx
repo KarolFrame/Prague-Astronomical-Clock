@@ -2,11 +2,18 @@ import React from "react";
 import anillo from "../../img/Anillo_hora_antigua.png";
 import "../../styles/styles.css";
 
-const AnilloHoraAntigua = () => {
+const AnilloHoraAntigua = ({ oldTimeRotate }) => {
+  const rotation = oldTimeRotate;
+
   return (
-    <>
-      <img className="hora-Antigua" src={anillo} />
-    </>
+    <div
+      className="hora-Antigua"
+      style={{
+        transform: `rotate(${rotation}deg)`,
+      }}
+    >
+      <img src={anillo}></img>
+    </div>
   );
 };
 

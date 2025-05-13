@@ -30,27 +30,26 @@ img {
   height: var(--clockSize);
 }
 .zodiaco {
-  position: absolute;
-  right: -260px;
+  position: relative;
+  top: -2000px;
+  right: 500px;
 }
 .clock {
   position: relative;
   margin-top: 50px;
 }
-.rotate {
-  right: 500px;
-  position: relative;
-  top: -1000px;
-}
+
 .hora-Antigua {
-  position: absolute !important;
+  position: relative !important;
+  top: -1000px;
 }
 .zodiacal {
   position: absolute !important;
+  z-index: 100;
 }
 .aguja-sol {
   position: relative;
   z-index: 200;
-  right: 108px;
-  top: -45px;
+  top: -2000px;
+  right: -200px;
 }
