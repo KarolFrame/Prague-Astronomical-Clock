@@ -46,7 +46,9 @@ const App = () => {
   };
 
   const getSunsetTime = () => {
-    const times = SunCalc.getTimes(new Date(), 40.4168, -3.7038);
+    const MADRIDX = 40.4168;
+    const MADRIDY = -3.7038;
+    const times = SunCalc.getTimes(new Date(), MADRIDX, MADRIDY);
     return times.sunset.getHours() + times.sunset.getMinutes() / 60;
   };
 
